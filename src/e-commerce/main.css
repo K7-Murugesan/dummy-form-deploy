@@ -1,0 +1,17 @@
+.carts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.carts .cart{
+    border: 1px solid gray;
+    width:25%;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow:  10px 10px 5px rgba(128, 128, 128, 0.753)  ;
+}
+.carts .cart article{
+    height: 80%;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
